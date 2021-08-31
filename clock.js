@@ -16,7 +16,7 @@ function year1() {
   let ye = "0" + now.getFullYear();
   let year = ye.slice( -4, -3);
   if(year >= 9) {
-    document.getElementById("nenn1").src = "number/９a.png";
+    document.getElementById("nenn1").src = "number/8a.png";
   } else if(year >= 8) {
     document.getElementById("nenn1").src = "number/８a.png";
   } else if(year >= 7) {
