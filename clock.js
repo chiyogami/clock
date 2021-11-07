@@ -133,7 +133,7 @@ function clock2() {
 function month1() {
   let now = new Date();
   let mon = "0" + now.getMonth();
-  let month = mon.slice(-1);
+  let month = mon.slice(1);
   if(month >= 11) {
     document.getElementById("tuki10").src = "number/１b.png";
     document.getElementById("tuki1").src = "number/２b.png";
